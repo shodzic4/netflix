@@ -9,5 +9,8 @@
         <module name="netflix" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="netflix" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
