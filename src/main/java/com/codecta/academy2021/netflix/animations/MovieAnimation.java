@@ -22,6 +22,12 @@ public abstract class MovieAnimation {
         this.mainCharacterName=mainCharacterName;
         this.imageFilename=imageFilename;
     }
+    public String getMainCharacterName(){
+        return this.mainCharacterName;
+    }
+    public String getMovieName(){
+        return this.movieName;
+    }
     public String picture(){
         if(imageFilename == null) {
             return "Sorry, no picture available";
